@@ -1,0 +1,31 @@
+.display {
+    width: 1;
+    height: 8.125rem;
+
+    margin: 0;
+    padding: 0px 40px;
+
+    border-radius: 22px;
+    border: 1px solid #161616;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    background-color: #161616;
+    color: #F2F2F4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    text-align: right;
+
+    font-size: 24px;
+}
+
+h2 {
+    color: #728AB7;
+}
+
+h2,h1 {
+    margin: 0;
+    padding: 0;
+}

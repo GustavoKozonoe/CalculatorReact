@@ -1,0 +1,50 @@
+.main {
+  color: #dfe6e9;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100vh;
+}
+
+.Calculator {
+  flex: 1;
+  width: 25rem;
+  margin: 20px;
+  box-sizing: border-box;
+
+  border: double 2px transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(#745FF2, white), radial-gradient(circle at top left, rgb(94, 37, 148), #745FF2);
+  
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.buttons {
+  width: 100%;
+  height: 80%;
+
+  margin: 0.625rem 0rem;
+
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+
+  align-items: center;
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
